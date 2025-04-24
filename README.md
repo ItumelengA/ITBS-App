@@ -1,4 +1,4 @@
-# 📚 Student Tutor App (Android)  
+|# 📚 Student Tutor App (Android)  
 
 An Android app for students to book tutors and manage online learning sessions.  
 
@@ -19,7 +19,8 @@ An Android app for students to book tutors and manage online learning sessions.
 ## 📸 **App Demo**  
 | Booking Screen | Session Management | Profile View |
 |---------------|--------------------|--------------|
-| ![Booking](https://github.com/user-attachments/assets/e9e6e9aa-e28f-4ef9-b11a-e106e4b7f237) | ![Sessions](https://github.com/user-attachments/assets/0b19d42c-c705-4359-bb49-b0895731d832) | ![Profile](https://github.com/user-attachments/assets/e1a3ab7c-dfda-46d7-a29e-133be8c081a9) |
+| ![Login](https://github.com/user-attachments/assets/e9e6e9aa-e28f-4ef9-b11a-e106e4b7f237) | ![Book session](https://github.com/user-attachments/assets/0b19d42c-c705-4359-bb49-b0895731d832) | ![P](https://github.com/user-attachments/assets/e1a3ab7c-dfda-46d7-a29e-133be8c081a9) | ![Select task to do](https://github.com/user-attachments/assets/6b45b4df-57d3-46f9-adbd-922c29cb5bfc)
+
 
 *Note: Images are placeholders—replace with actual screenshots of your app.*  
 
