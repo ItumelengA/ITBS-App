@@ -10,7 +10,7 @@ A simple Android app for students to book tutors and attend online learning sess
 ## 📌 **Planned Upgrades**  
 - Live video classes (WebRTC/Zoom API integration).  
 - Payment system for tutors.
-- Upadates on the as the whole
+- Upadates on the app as a whole
  
 ## 🛠️ **Built With**  
 - Android Studio (Kotlin/Java)  
