@@ -22,3 +22,10 @@ A simple Android app for students to book tutors and attend online learning sess
 3. Run on an emulator or Android device.  
 
 > **Note**: This is a **work in progress**. Contributions welcome!  
+
+App Demo
+![image](https://github.com/user-attachments/assets/e9e6e9aa-e28f-4ef9-b11a-e106e4b7f237)
+![image](https://github.com/user-attachments/assets/0b19d42c-c705-4359-bb49-b0895731d832)
+![image](https://github.com/user-attachments/assets/e1a3ab7c-dfda-46d7-a29e-133be8c081a9)
+
+
