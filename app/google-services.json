@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "103958859952",
+    "firebase_url": "https://itbs-fe906-default-rtdb.firebaseio.com",
+    "project_id": "itbs-fe906",
+    "storage_bucket": "itbs-fe906.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103958859952:android:0265b453b25c408328ab75",
+        "android_client_info": {
+          "package_name": "com.system.itbs2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBPorbmW_ZGCwKKUsEBvphgtC8N666MtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

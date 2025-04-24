@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".selectLogin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="Select"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-light"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="25dp">
+
+        <ImageButton
+            android:id="@+id/studLogin"
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:contentDescription="self study"
+            android:src="@drawable/studlogin"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="198dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/my_primary"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="242dp">
+
+        <ImageButton
+            android:id="@+id/tutorLogin"
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorlogin"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:contentDescription="Attemp a test"/>
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/adminLogin"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/adminlogin"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="395dp"
+        android:contentDescription="Book tutor"/>
+
+</RelativeLayout>

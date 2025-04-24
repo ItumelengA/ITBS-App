@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:id="@+id/sponsors"
+    android:padding="16dp"
+    android:background="#23C8C5C5"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Sponsors">
+
+    <ImageView
+        android:id="@+id/sponsorImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sponsors_image" />
+    <ImageView
+        android:id="@+id/spImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/sp_image" />
+</LinearLayout>

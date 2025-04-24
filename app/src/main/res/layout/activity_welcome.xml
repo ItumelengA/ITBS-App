@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundspu"
+    android:orientation="horizontal"
+    tools:context=".WelcomeAtc">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="628dp"
+        android:layout_marginStart="180dp"
+        android:background="#D3CACA">
+
+        <LinearLayout
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextClock
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="16dp"
+                android:format24Hour="HH:mm:ss" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="16dp"
+                android:text="Welcome to TutorEase!"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:text="We are excited to welcome you to the TutorEase system."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Your one-stop solution for academic support and guidance."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Our platform connects you with experienced tutorswho are dedicated to helping you reach your academic goals."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Whether you need assistance with a challenging modules, preparing for exams or improving study skills."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="75dp"
+                android:src="@drawable/getstarted" />
+
+            <Button
+                android:id="@+id/getStarted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#C83838"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Get Started"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="0dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_panel"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="-580dp"
+        android:background="#A54141"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/contactUs"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/abel"
+            android:text="Contact"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="4dp" />
+
+        <Button
+            android:id="@+id/sponsors"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/abel"
+            android:text="Sponsors"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:cornerRadius="4dp" />
+
+        <Button
+            android:id="@+id/brought"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/abel"
+            android:text="Brought by"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="4dp"/>
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-350dp"
+            android:layout_marginTop="40dp"
+            android:text="Copyright © 2024. iTBS. All Rights Reserved."
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

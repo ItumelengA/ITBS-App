@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/drawer_border">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="16dp"
+        android:background="@drawable/header_bgk"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <ImageView
+            android:layout_width="124dp"
+            android:layout_height="103dp"
+            android:src="@drawable/spulogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="information@spu.ac.za"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+    <!-- Profile -->
+    <LinearLayout
+        android:id="@+id/viewTutorrequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/my_primary"
+            android:text="View Tutor Request"
+            android:textSize="19sp"
+            android:drawableLeft="@drawable/view"
+            android:drawablePadding="8dp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/my_primary" />
+    <LinearLayout
+        android:id="@+id/viewStudentsBooked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/my_primary"
+            android:text="View Students Booked"
+            android:textSize="19sp"
+            android:drawableLeft="@drawable/book_online"
+            android:drawablePadding="8dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/my_primary" />
+
+    <!-- View Requests -->
+    <LinearLayout
+        android:id="@+id/viewStudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/my_primary"
+            android:text="Registered Student"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/baseline_how_to_reg_24"
+            android:drawablePadding="8dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/my_primary" />
+
+    <!-- Submit Tutorial Evaluation -->
+    <LinearLayout
+        android:id="@+id/registeredTutors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/my_primary"
+            android:text="Registered Tutors"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/baseline_how_to_reg_24"
+            android:drawablePadding="8dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/my_primary" />
+
+    <!-- Claim Service -->
+    <LinearLayout
+        android:id="@+id/makepayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/my_primary"
+            android:text="Make Payment"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/payment"
+            android:drawablePadding="8dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/my_primary" />
+
+    <!-- Student Feedback -->
+    <LinearLayout
+        android:id="@+id/student_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/my_primary"
+            android:text="Student Feedback"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/feedback"
+            android:drawablePadding="8dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/my_primary" />
+
+    <!-- Claims -->
+    <LinearLayout
+        android:id="@+id/claims"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/my_primary"
+            android:text="Claims"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/claimservice"
+            android:drawablePadding="8dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/my_primary" />
+
+    <!-- Tutor Evaluations -->
+    <LinearLayout
+        android:id="@+id/tutor_evaluations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/my_primary"
+            android:text="Tutor Evaluations"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="8dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/my_primary" />
+
+    <!-- Logout -->
+    <LinearLayout
+        android:id="@+id/logoutAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/my_primary"
+            android:text="Logout"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/baseline_logout_24"
+            android:drawablePadding="8dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loginDirector"
+        android:layout_width="228dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="9dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/baseline_login_24"
+            android:drawablePadding="8dp"
+            android:text="Director/HOD Login"
+            android:textColor="@color/my_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

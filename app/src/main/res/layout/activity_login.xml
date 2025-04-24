@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginAct">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:src="@drawable/spulogo">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login as a student"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textstudNum"
+        android:background="#F4EDED"
+        android:hint="Student number"
+        android:textColorHint="#7E7979"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:inputType="number"
+        android:lines="1"
+        android:drawableLeft="@drawable/student_num"
+        android:drawablePadding="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textpassword"
+        android:background="#F4EDED"
+        android:hint="Password"
+        android:textColorHint="#7E7979"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:lines="1"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="20dp"/>
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/loginBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="15dp"
+    android:text= "Login"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/studCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:text="Create Account" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/forgotPssd"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginStart="5dp"
+        android:clickable="true"
+        android:padding="6dp"
+        android:text="forgot password"
+        android:textColor="#0E2DDA"
+        android:textStyle="bold"
+        android:backgroundTint="#FFF6F9"/>
+
+</LinearLayout>
